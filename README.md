@@ -1,75 +1,77 @@
 <header>
 
 <!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
+<<< Примечания автора: заголовок курса >>>
+Включите изображение 1280×640, название курса в предложении с заглавной буквы и краткое описание в выделенном месте.
+В настройках репозитория: включите шаблонный репозиторий, добавьте свое социальное изображение 1280×640, автоматическое удаление веток head.
+Добавьте свою лицензию с открытым исходным кодом, GitHub использует лицензию MIT.
 -->
 
-# Introduction to GitHub
+# Введение в GitHub
 
-_Get started using GitHub in less than an hour._
+_Начните использовать GitHub менее чем за час._
 
 </header>
 
 <!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
+<<< Примечания автора: шаг 1 >>>
+Выберите 3-5 шагов для своего курса.
+Первый шаг всегда самый сложный, поэтому выберите что-нибудь полегче!
+Ссылка на docs.github.com для дальнейших объяснений.
+Поощряйте пользователей открывать новые вкладки для шагов!
 -->
 
-## Step 1: Create a branch
+## Шаг 1: Создайте ветку
 
-_Welcome to "Introduction to GitHub"! :wave:_
+_Добро пожаловать на "Введение в GitHub"! :wave:_
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+**Что такое GitHub?**: GitHub — это платформа для совместной работы, которая использует _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ для управления версиями. GitHub — это популярное место для обмена и внесения вклада в [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) программное обеспечение.
+<br>:tv: [Видео: Что такое GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
 
-**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
+**Что такое репозиторий?**: _[репозиторий](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ — это проект, содержащий файлы и папки. Репозиторий отслеживает версии файлов и папок. Для получения дополнительной информации см. "[О репозиториях](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" из GitHub Docs.
 
-**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. Creating additional branches allows you to copy the `main` branch of your repository and safely make any changes without disrupting the main project. Many people use branches to work on specific features without affecting any other parts of the project.
+**Что такое ветка?**: _[ветка](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ — это параллельная версия вашего репозитория. По умолчанию ваш репозиторий имеет одну ветку с именем `main`, и она считается окончательной. Создание дополнительных веток позволяет вам копировать `main` ветку вашего репозитория и безопасно вносить любые изменения, не нарушая основной проект. Многие люди используют ветки для работы над определенными функциями, не затрагивая другие части проекта.
 
-Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute. For more information, see "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
+Ветки позволяют вам отделить вашу работу от `main` ветки. Другими словами, работа каждого находится в безопасности, пока вы вносите свой вклад. Для получения дополнительной информации см. "[О ветках](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
 
-**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ is essentially an "About me" section on your GitHub profile where you can share information about yourself with the community on GitHub.com. GitHub shows your profile README at the top of your profile page. For more information, see "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
+**Что такое README профиля?**: _[README профиля](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ по сути является разделом "Обо мне" в вашем профиле GitHub, где вы можете поделиться информацией о себе с сообществом на GitHub.com. GitHub отображает README вашего профиля в верхней части страницы вашего профиля. Для получения дополнительной информации см. "[Управление профилем README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
 
 ![profile-readme-example](/images/profile-readme-example.png)
 
-### :keyboard: Activity: Your first branch
+### :keyboard: Действие: Ваша первая ветка
 
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
+1. Откройте новую вкладку браузера и перейдите в ваш недавно созданный репозиторий. Затем выполните шаги на второй вкладке, пока вы читаете инструкции на этой вкладке.
+2. Перейдите на вкладку **< > Код** в меню заголовка вашего репозитория.
 
-   ![code-tab](/images/code-tab.png)
+![code-tab](/images/code-tab.png)
 
-3. Click on the **main** branch drop-down.
+3. Щелкните раскрывающийся список **главной** ветки.
 
-   ![main-branch-dropdown](/images/main-branch-dropdown.png)
+![main-branch-dropdown](/images/main-branch-dropdown.png)
 
-4. In the field, name your branch `my-first-branch`. In this case, the name must be `my-first-branch` to trigger the course workflow.
-5. Click **Create branch: my-first-branch** to create your branch.
+4. В поле назовите свою ветку `my-first-branch`. В этом случае имя должно быть `my-first-branch`, чтобы запустить рабочий процесс курса.
 
-   ![create-branch-button](/images/create-branch-button.png)
+5. Нажмите **Создать ветку: my-first-branch**, чтобы создать свою ветку.
 
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
+![create-branch-button](/images/create-branch-button.png)
 
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+Ветка автоматически переключится на ту, которую вы только что создали.
+В раскрывающемся списке **main** ветки отобразится ваша новая ветка и отобразится новое имя ветки.
+
+6. Подождите около 20 секунд, затем обновите эту страницу (ту, на которой вы следуете инструкциям). [Действия GitHub](https://docs.github.com/en/actions) автоматически обновятся до следующего шага.
 
 <footer>
 
 <!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
+<<< Примечания автора: Нижний колонтитул >>>
+Добавьте ссылку для получения поддержки, страницу статуса GitHub, кодекс поведения, ссылку на лицензию.
 -->
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Получить помощь: [Опубликовать на нашей доске обсуждений](https://github.com/orgs/skills/discussions/categories/introduction-to-github) • [Просмотреть страницу статуса GitHub](https://www.githubstatus.com/)
 
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+© 2024 GitHub • [Кодекс поведения](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) • [Лицензия MIT](https://gh.io/mit)
 
 </footer>
+ 
